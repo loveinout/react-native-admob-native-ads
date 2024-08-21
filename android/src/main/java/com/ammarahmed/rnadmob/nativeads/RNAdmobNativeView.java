@@ -375,7 +375,7 @@ public class RNAdmobNativeView extends LinearLayout {
     }
 
     public void setRequestNonPersonalizedAdsOnly(boolean npa) {
-//         Utils.setRequestNonPersonalizedAdsOnly(npa, adRequest);
+        Utils.setRequestNonPersonalizedAdsOnly(npa, adRequest);
 
     }
 
