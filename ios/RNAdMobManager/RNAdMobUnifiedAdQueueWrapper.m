@@ -75,7 +75,7 @@
 
     //Set request options
     if ([config objectForKey:@"adChoicesPlacement"]){
-        [adPlacementOptions setPreferredAdChoicesPosition:((NSNumber *)[config objectForKey:@"adChoicesPlacement"]).intValue];
+        [adPlacementOptions setPreferredAdChoicesPosition: GADAdChoicesPositionTopRightCorner];
     }
     if ([config objectForKey:@"mediaAspectRatio"]){
         [adMediaOptions setMediaAspectRatio:((NSNumber *)[config objectForKey:@"mediaAspectRatio"]).intValue];
